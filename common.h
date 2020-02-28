@@ -5,7 +5,7 @@
 #ifndef TTCP_COMMON_H
 #define TTCP_COMMON_H
 #include <string>
-
+#include <stdint.h>
 
 struct Options{
     std::string host;

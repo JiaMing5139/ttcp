@@ -10,6 +10,8 @@
 #include <assert.h>
 #include <time.h>
 #include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int wirte_n(int sockfd, void* buf, int length){
     int nwrite = 0;
